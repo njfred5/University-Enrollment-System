@@ -4,6 +4,7 @@ import { Student } from "./src/domain/Student";
 import { Course } from "./src/domain/Course";
 import { CourseCode, StudentId } from "./src/domain/types";
 
+
 const RESET  = "\x1b[0m";
 const GREEN  = "\x1b[32m";
 const RED    = "\x1b[31m";
@@ -11,6 +12,7 @@ const YELLOW = "\x1b[33m";
 const CYAN   = "\x1b[36m";
 const BOLD   = "\x1b[1m";
 const LINE   = "─".repeat(62);
+
 
 function log(msg: string) { console.log(msg); }
 function section(n: number, title: string) {
