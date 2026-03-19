@@ -15,6 +15,7 @@ export class EventEmitter {
     this.handlers.get(eventName)!.push(handler as Handler<DomainEvent>);
   }
 
+  
   unsubscribe<K extends DomainEventName>(
     eventName: K,
     handler: Handler<Extract<DomainEvent, { name: K }>>

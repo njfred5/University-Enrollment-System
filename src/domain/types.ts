@@ -17,6 +17,7 @@ function Err<T>(error: string): Result<T> {
   return { ok: false, error };
 }
 
+
 const VALID_CREDITS = [1, 2, 3, 4, 6] as const;
 let enrollmentCounter = 1;
 

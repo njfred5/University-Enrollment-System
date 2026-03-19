@@ -8,7 +8,6 @@ interface CourseProps {
   capacity: number;
   enrolledCount: number;
 }
-
 export class Course {
   private props: CourseProps;
 
