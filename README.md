@@ -7,7 +7,7 @@ Module: Domain-Driven Design, Branded Types & Observer Pattern
 
 ## What this is
 
-A TypeScript enrollment system built around DDD principles. The idea was to treat the domain seriously — students have credit limits, courses have capacities, and nothing gets created without going through a smart constructor first. If the data is wrong, you get an error back. If it's right, you get a typed value you can trust everywhere.
+A TypeScript enrollment system built around DDD principles. The idea was to treat the domain seriously where students have credit limits, courses have capacities, and nothing gets created without going through a smart constructor first. If the data is wrong, you get an error back. If it's right, you get a typed value you can trust everywhere.
 
 ---
 
